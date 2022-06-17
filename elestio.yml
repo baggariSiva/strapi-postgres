@@ -1,0 +1,32 @@
+config:
+  runTime: "NodeJs"
+  version: ""
+  framework: ""
+  buildCommand: "npm run build"
+  buildDir: "build"
+  runCommand: "npm run start"
+  installCommand: "npm install"
+ports:
+  - protocol: "HTTPS"
+    targetProtocol: "HTTP"
+    listeningPort: "443"
+    targetPort: "1337"
+    public: true
+    path: "/"
+    isAuth: false
+    login: ""
+    password: ""
+exposedPorts:
+  - protocol: "HTTP"
+    hostPort: "1337"
+    containerPort: "1337"
+    interface: "172.17.0.1"
+environments:
+  - key: "APP_KEYS"
+    value: "1lxUm3FxlgWaBtOKi1ojyQ==,Z46OkMaAW5v4Cnoeugzntg==,fc4u15f1QhtlxZri2KssGQ==,B27isyfQLPPDkbE/l9Cj3g=="
+  - key: "API_TOKEN_SALT"
+    value: "/4LqDRZgasPUW4+7jdMUFQ=="
+  - key: "ADMIN_JWT_SECRET"
+    value: "2mws5/+pjPhDi170B9EHQw=="
+  - key: "JWT_SECRET"
+    value: "/CLjatWrMG42zxJ8anFoXw=="
