@@ -39,4 +39,4 @@ npm run develop
 ### Step 5: Make some changes and push
 Try to make some change and then push to the git repository.
 
-After few secondes to few minutes your change will be deployed on your CI/CD target 🚀
+After few seconds to few minutes your change will be deployed on your CI/CD target 🚀
