@@ -28,7 +28,7 @@ cd strapi-postgres
 npm install
 ```
 
-Rename .env.sample to .env
+Rename `.env.sample` to `.env`.
 
 ### Step 4: Run your app in dev mode
 
