@@ -33,3 +33,19 @@ environments:
     value: "2mws5/+pjPhDi170B9EHQw=="
   - key: "JWT_SECRET"
     value: "/CLjatWrMG42zxJ8anFoXw=="
+  - key: "HOST"
+    value: "0.0.0.0"
+  - key: "PORT"
+    value: "1337"
+  - key: "DB_CLIENT"
+    value: 'pg'
+  - key: "DB_HOST"
+    value: '172.17.0.1'
+  - key: "DB_PORT"
+    value: '5432'
+  - key: "DB_DATABASE"
+    value: 'strapi'
+  - key: "DB_USER"
+    value: 'strapi'
+  - key: "DB_PASSWORD"
+    value: 'strapi'
