@@ -21,6 +21,9 @@ exposedPorts:
     hostPort: "1337"
     containerPort: "1337"
     interface: "172.17.0.1"
+volumes:
+  - hostPath: "./data"
+    containerPath: "/var/lib/postgresql/data"
 environments:
   - key: "APP_KEYS"
     value: "1lxUm3FxlgWaBtOKi1ojyQ==,Z46OkMaAW5v4Cnoeugzntg==,fc4u15f1QhtlxZri2KssGQ==,B27isyfQLPPDkbE/l9Cj3g=="
