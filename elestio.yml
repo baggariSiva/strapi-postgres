@@ -49,3 +49,5 @@ environments:
     value: 'strapi'
   - key: "DB_PASSWORD"
     value: 'random_password'
+  - key: "ADMIN_EMAIL"
+    value: '[EMAIL]'
