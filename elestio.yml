@@ -48,4 +48,4 @@ environments:
   - key: "DB_USER"
     value: 'strapi'
   - key: "DB_PASSWORD"
-    value: 'strapi'
+    value: 'random_password'
