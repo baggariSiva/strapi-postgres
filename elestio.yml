@@ -61,7 +61,14 @@ environments:
   - key: "ADMIN_EMAIL"
     value: '[EMAIL]'
   - key: "ADMIN_PASSWORD" 
-    VALUE: 'random_password' 
+    VALUE: 'random_password'
+lifeCycleConfig:
+  preInstallCommand: "./scripts/preInstall.sh"
+  postInstallCommand: "./scripts/postInstall.sh"
+  preBackupCommand: "./scripts/preBackup.sh"
+  postBackupCommand: "./scripts/postBackup.sh"
+  preRestoreCommand: "./scripts/preRestore.sh"
+  postRestoreCommand: "./scripts/postRestore.sh" 
 webUI:
   - url: "https://[CI_CD_DOMAIN]"
     label: "Website"
